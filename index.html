@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Hangman Game</title>
+	<link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+
+<audio autoplay loop>
+  <source src="assets/audio/music.mp3" type="audio/mpeg">
+</audio>
+
+<div class="page-header">
+	<h1>Hangman Game</h1>	
+</div>
+
+<div class="container">
+
+	<div class="row">
+
+		<div id="main-section" class="col-md-8">
+			<div id="letter-bank-header">
+				<h2 class="text-center">Letter Bank</h2>
+			</div>
+			<div id="letter-bank">
+				<p id="letterBank" class="text-center"></p>
+			</div>
+			
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+			<div id="mystery-word-header">
+				<h2 class="text-center">Mystery Word</h2>
+			</div>
+			<div id="mystery-word">
+				<br>
+				<p id="mysteryWordId" class="text-center"></p>
+			</div>
+		</div>
+		<div class="col-md-4">
+
+			<div class="panel panel-default">
+				<div id="text-heading" class="panel-heading">Instructions</div>
+				<div id="text-body" class="panel-body">
+					<p class="text-center">Press any key to get started.</p>
+					<p class="text-center">Guess a letter in the mystery word.</p>
+					<p class="text-center">Ten incorrect guesses and you Lose!</p>
+					<p class="text-center">Win 5 times to unlock <strong>MYSTERY PRIZE</strong>!</p>
+
+				</div>
+			</div>
+			 
+			<br>
+			
+			<div class="panel panel-default">
+				<div id="text-heading" class="panel-heading">Letters Already Guessed</div>
+				<div id="text-body" class="panel-body text-center">
+					<p id="guessedLetters"></p>
+				</div>
+			</div>
+			
+			<br>
+
+			<div id="test-row">
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div id="text-heading" class="panel-heading">Guesses Left</div>
+						<div id="text-body" class="panel-body text-center"><strong id="guessesLeft"></strong></div>
+					</div>
+				</div>					
+				
+				<div class="col-md-6">
+					<div class="panel panel-default">
+						<div id="text-heading" class="panel-heading">Wins / Losses</div>
+						<div id="text-body" class="panel-body text-center"><strong id="wins"></strong>W / <strong id="losses"></strong>L</div>
+					</div>
+				</div>
+			
+			</div>
+
+
+		</div>
+
+	</div> 
+
+</div>
+
+<script src='http://use.edgefonts.net/eater.js'></script>
+<script type="text/javascript" src="assets/js/game.js"></script>
+	
+</body>
+</html>

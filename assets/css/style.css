@@ -1,0 +1,62 @@
+h1{
+	font-family: 'eater';
+	color: red;
+	text-align: center;
+	font-size: 250%
+}
+
+.page-header{
+	background-color: black;
+	margin: 0 0 20px 0;
+	text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white; 
+}
+
+body{
+	background-color: black;
+}
+
+#main-section{
+	background: url("../images/hangman_background.jpg");
+	background-size: cover;
+	min-height: 500px;
+	border:1px solid white;
+	color: white;
+}
+
+#text-body{
+	background-color: black;
+	color:red;
+}
+
+#text-heading{
+	text-align: center;
+	background-color: black;
+	color: red;
+	font-weight: bold;
+	font-family: 'eater';
+}
+
+#letter-bank,
+#letter-bank-header{
+	background: rgba(50,50,50,0.8);
+}
+
+#letterBank{
+	width: 275px;
+	margin: auto;
+	letter-spacing: 32px; 
+}
+
+#mystery-word,
+#mystery-word-header{
+	background: rgba(50,50,50,0.8);
+}
+
+#mystery-word{
+	padding-bottom: 5px
+}
+
